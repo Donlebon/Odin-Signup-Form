@@ -1,0 +1,130 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  min-height: 100vh;
+}
+
+.flex-container {
+  display: flex;
+}
+
+.background {
+  display: flex;
+  flex-basis: 42%;
+  height: 612px;
+  background: url("pirate-background.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.image-header {
+  font-family: "Tangerine", sans-serif;
+  background: black;
+  opacity: 0.8;
+  color: white;
+  padding: 1em;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  margin-top: 4em;
+}
+.image-header h1 {
+  padding-left: 1em;
+}
+
+.jolly-roger {
+  height: 125px;
+  width: 125px;
+}
+
+.credit {
+  color: white;
+  text-align: center;
+  font-size: 0.5rem;
+  padding-bottom: 0.8rem;
+}
+
+.credit2 {
+  color: white;
+  font-size: 0.5rem;
+  padding-bottom: 0.8rem;
+  margin-left: 1.5em;
+}
+
+.signup {
+  background-color: #F9F5EB;
+  flex-basis: 90%;
+}
+.signup .header {
+  background-color: #F9F5EB;
+  font-family: "Tangerine", sans-serif;
+  font-size: 1.5rem;
+}
+.signup .summary {
+  padding: 2em 0em 0em 1em;
+}
+.signup .join {
+  padding: 0.8em 0em 0em 1em;
+}
+
+form {
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  background-color: white;
+  padding: 2em;
+  font-size: 0.8rem;
+  letter-spacing: 1.5px;
+  font-weight: 700;
+}
+form h1 {
+  margin-bottom: 1em;
+}
+form .input-style {
+  height: 25px;
+  width: 250px;
+}
+form .flex-container {
+  margin-bottom: 1em;
+}
+
+.positioning {
+  margin-left: 4em;
+}
+
+.bottom {
+  background-color: #F9F5EB;
+  padding-left: 1.5em;
+}
+.bottom h2 {
+  max-width: 500px;
+  font-size: 1rem;
+}
+.bottom span {
+  color: #EA5C2B;
+  cursor: pointer;
+}
+
+.create {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  font-size: 1rem;
+  padding: 0.5em 2.5em;
+  margin-bottom: 2em;
+  cursor: pointer;
+  color: white;
+  background-color: #EA5C2B;
+  border-style: none;
+  border-radius: 0.3em;
+  font-weight: 700;
+  margin-top: 1.5em;
+}
+
+.pw-error {
+  color: red;
+  font-size: 0.7rem;
+}/*# sourceMappingURL=index.css.map */
